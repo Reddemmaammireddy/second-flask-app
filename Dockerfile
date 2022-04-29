@@ -7,7 +7,7 @@ ENV DB_URL=dummyurl
 #this runs when image is built
 RUN pip install -r requirements.txt
 
-COPY . .
+COPY app.py .
 
 EXPOSE 5000
 
